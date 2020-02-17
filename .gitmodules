@@ -1,3 +1,4 @@
 [submodule "cli"]
 	path = cli
 	url = github:staaldraad/gh-cli
+    branch = .
