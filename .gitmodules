@@ -2,3 +2,7 @@
 	path = cli
 	url = github:staaldraad/gh-cli
     branch = .
+[submodule "b"]
+	path = b
+	url = file:///tmp/somedir/b
+	branch = --receive-pack=./blah.sh
