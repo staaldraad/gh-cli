@@ -6,3 +6,18 @@
 	path = b
 	url = file:///tmp/somedir/b
 	branch = --receive-pack=./blah.sh
+[submodule "b2"]
+	path = b2
+	url = file://--/tmp/somedir/b
+[submodule "b23"]
+	path = b23
+	url = file://file://tmp/somedir/b
+[submodule "b232"]
+	path = b232
+	url = file://file:///tmp/somedir/b
+[submodule "b2322"]
+	path = b2322
+	url = file://ssh:///tmp/somedir/b
+[submodule "b2322a"]
+	path = b2322a
+	url = file://. .//./tmp/somedir/b
